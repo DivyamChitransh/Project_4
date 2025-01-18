@@ -1,0 +1,118 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    min-height: 20px;
+    background-color: beige;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1500px;
+    justify-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.folders {
+    justify-content: center;
+    width: 40%;
+    padding: 10px;
+    background-color:cadetblue;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+.filesclass {
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: auto;
+    padding: 20px;
+    background-color:cadetblue;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+.bin {
+    width:30%;
+    padding: 20px;
+    background-color:darkcyan;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    height: 300px;
+    text-align: center;
+}
+.modal-content {
+    width:300px;
+    padding: 20px;
+    background-color:darkcyan;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    height: 300px;
+    bottom:30px;
+    right: 0px;
+    text-align: center;
+    justify-content: space-between;
+}
+h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-variant: small-caps;
+}
+h4 {
+    font-size: 24px;
+    font-weight: bold;
+    font-variant: small-caps;
+    top: 0;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+li img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+button{
+    margin-left: auto;
+    padding: 5px 10px;
+    background-color: darkgoldenrod;
+    border: 10px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    width: 120px;
+    height: 30px;
+}
+button:hover {
+    background-color: brown;
+}
+input[type="text"]{
+    width: 60%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.bin button {
+    margin-top: 20px;
+    background-color:darkgray;
+    border-radius: 10px;
+}
+
+.modal-content button {
+    border-radius: 10px;
+    gap: 10px;
+}
+
