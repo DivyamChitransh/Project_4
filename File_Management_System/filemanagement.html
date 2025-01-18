@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>File Organizer System</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="folders">
+                <h3>Folders</h3>
+                <ul id="folderslist"></ul>
+            </div>
+            <div class="filesclass">
+                <h3>Files</h3>
+                <input type="text" id="search" placeholder="Enter the file name">
+                <button id="searchbtn">Search</button>
+                <br>
+                <button id="sortbtn">Sort files</button>
+                <ul id="fileslist"></ul>
+            </div>
+            <div class="bin">
+                <h3>Bin</h3>
+                <ul id="binlist"></ul>
+                <button id="clearbin">Clear Bin</button>
+            </div>
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3>Confirm Modal</h3>
+                    <h4 id="modalmessage">Are You Sure?</h4>
+                    <button id="confirmmodal">Confirm</button>
+                    <button id="cancelmodal">Cancel</button>
+                </div>
+            </div>
+            <div id="fileHistory"></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
